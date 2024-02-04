@@ -1,11 +1,15 @@
 import { IMG_CDN_URL } from "../utils/constants";
 
-const MovieCard = ({ posterPath }) => {
+const MovieCard = ({ posterPath, title }) => {
   if (!posterPath) return null;
+
   return (
-    <div className="w-36 md:w-48 pr-4">
-      <img alt="Movie Card" src={IMG_CDN_URL + posterPath} />
-    </div>
+      <div className='w-40 md:w-72 pr-3 md:pr-6 movie-card'>
+          <img alt='movie card'
+              className='rounded-md hover:cursor-pointer'
+              src={IMG_CDN_URL + posterPath} />
+          <p className='text-gray-300 text-sm'>{title}</p>
+      </div>
   );
 };
 export default MovieCard;
