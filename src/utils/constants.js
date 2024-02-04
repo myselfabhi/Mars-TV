@@ -9,7 +9,7 @@ export const USER_AVATAR =
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNGZhMjA2M2EwODdkMGRhZDM1NzM2MzM4ZWZiYjIwZCIsInN1YiI6IjY1YjYxNDY5MTI0MjVjMDE2MjQ5NGM3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.L4Hz96O7MXfl2C32w7jp94HlIKyDeOpGmwlwIxuf__g",   }
+      Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,   }
   };
 
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";

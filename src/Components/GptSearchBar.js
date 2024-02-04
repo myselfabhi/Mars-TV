@@ -64,7 +64,7 @@ const GptSearchBar = () => {
     <div>
         <div className="pt-[15%] md:pt-[12%] flex justify-center">
             <h2 className="text-lg md:text-2xl font-semibold text-gray-100  flex my-11 md:my-14">
-                Let AI be your Movie Guru!
+                Let Abhi AI Bot be your Movie Guru!
             </h2>
         </div>
         <form
