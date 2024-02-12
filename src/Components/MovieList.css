@@ -1,6 +1,6 @@
 .scrollbar {
   scrollbar-color: black;
-  scrollbar-width: thin;
+  /* scrollbar-width: thin; */
 }
 
 .scrollbar::-webkit-scrollbar {
